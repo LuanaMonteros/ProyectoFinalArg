@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+background: linear-gradient(to bottom right, rgb(164, 183, 200),rgb(16, 83, 54));
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+section article{
+  width: 40%;
+}
+
+article figure {
+  width: 60%;
+  align-items: center;
+}
+
+article figure img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.accordion {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.accordion-header:hover {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
